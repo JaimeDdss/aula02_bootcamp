@@ -1,5 +1,5 @@
 # #### Inteiros (`int`)
-
+import math
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 #primeiro_numero = int(input("Digite o primeiro número da soma: "))
 #segundo_numero = int(input("Digite o segundo número da soma: "))
@@ -18,7 +18,17 @@
 #print( f"O resultado da multiplicacao de", primeiro_numero,"e",segundo_numero , "é de:", multiplicacao)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+#numero_1 = int(input("Digite o primeiro número: "))
+#numero_2 = int(input("Digite o segundo número: "))
+#
+#result = numero_1/numero_2 
+#
+#print(f"A divisão de {numero_1} por {numero_2} é: {round(result,2)}")
+
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+#numero = int(input('Digite o numero para saber a raiz quadrada: '))
+#print (f"A raiz quadrada de {numero} é: {math.sqrt(numero)}")
 
 # #### Números de Ponto Flutuante (`float`)
 
