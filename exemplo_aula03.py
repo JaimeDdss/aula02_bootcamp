@@ -1,11 +1,15 @@
-# Ver exercícios para fazer no Github
+#Crie um dicionário para armazenar infos de um livro
+# Incluindo título, autor e ano de publicação. Imprima cada info.
 
-#x = -3
-#
-#if x <= 0:
-#    print( "é menor do que zero" )
-#elif x <= 2:
-#    print("é menor do que dois")
-#else:
-#    print('more')
+from typing import Dict, Any
 
+livro: Dict[str, Any] = {
+    'Título': 'Finders Keepers',
+    'Autor': 'Stephen King',
+    'Ano publicacao': 2015
+}
+
+lista_de_elementos: list = livro.items()
+for elemento in lista_de_elementos:
+    print(elemento)
+    
